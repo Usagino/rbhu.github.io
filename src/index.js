@@ -43,7 +43,6 @@ $(()=>{
     $(window).on('scroll', () => {
       let pos = $(window).scrollTop();
     });
-
     $(".magazine__right__wrap").append(
       right[0]
     );
