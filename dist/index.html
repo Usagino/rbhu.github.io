@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>template</title>
+</head>
+
+<body>
+  <div id="contents">
+    <main>
+      <magazine>
+        <template slot="title">
+          <h1>hogehoge</h1>
+        </template>
+        <template slot="text">
+          <p style="text-align:left">
+            アメリカの作家ダニエルアーシャムが日本で2回目となる展示会を開きました。これは展示会のwebサイトを制作する+αで何かしらの企画を提案するという課題でした。ダニエルアーシャムは1980年にアメリカのグリーンブランドで生まれ、以降様々な作品を世に排出してきました。彼は生まれながらの色覚異常者(色盲)であり白を基調とした色覚芸術が多々あります。<br>
+          </p>
+          <p style="text-align:left">
+            今回の彼の展示会のテーマは「科学的常識、原則からは説明できない逸脱、偏差を起こした現象を含む構造」<br>
+            実際に展示会に足を運んでみましたが、とても美しくてどこまでも白く、どこか残酷だと私は感じました。
+          </p>
+            <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/view4.jpg" alt="" class="wp-image-170" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/view4.jpg 600w, http://front-artgraph.com/wp-content/uploads/2018/07/view4-300x193.jpg 300w"
+              sizes="(max-width: 600px) 100vw, 600px"></figure>
+            <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-1024x768.jpg" alt="" class="wp-image-167" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-1024x768.jpg 1024w, http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-300x225.jpg 300w, http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-768x576.jpg 768w"
+              sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+            <p style="text-align:left">
+              場所はNANZUKAという渋谷に位置する展示場所で開かれていました。地下へと降りる暗い階段を進むと一気に白い世界が広がっており、別世界に来たかのような感覚に陥り、川端康成の小説「雪国」のように夜の底が白くなったようでした。
+            </p>
+            <h2>ターゲットとコラボ企画</h2>
+            <p style="text-align:left">
+              障害というのは「見える障害」と「見えない障害」があると私はインターン先のLITALICOで学んで来ました。LITALICOというのはいわゆる自立支援企業。「障害のない社会を作る」をビジョンに掲げたとても素晴らしい企業です。
+            </p>
+            <p style="text-align:left">
+              障害を持つ子供や、発達が遅れた子供に限らず自立を促す部門の「<strong>LITALICOジュニア</strong>」
+            </p>
+            <p style="text-align:left">
+              子供にプログラミングやLEGOでロボットを作ったり、デジタルアートや３Dプリンターなどのテクノロジーを通じて道徳などを教える「<strong>LITALICOワンダー</strong>」
+            </p>
+            <p style="text-align:left">
+              何かしらの問題で働けない方に就職の手助けやその人の抱える問題を共に解決する「<strong>LITALICOワークス</strong>」などがあります。
+            </p>
+            <p style="text-align:left">メガネをかけた人はメガネがなかったら目が見えない訳で、つまり障がい者と言われる世界があったかもしれません。そこにメガネという矯正ツールがあることによって視力が悪い人は普通の暮らしをできるわけです。ゆえに障害とは個人にではなくこの社会にあるというのがLITALICOの考えで、私自身ADHDを持っているのですごく共感できる考えです。</p>
+            <p style="text-align:left">今回のターゲットはダニエルアーシャムと同じく色盲を患っている方です。白を基調にした彼の作品はどこか残酷で儚げではありますが、影の黒と素材の白といういわゆる二進数で構成されているため誰が見ても同じ姿が目に映ります。つまり少なくともダニエルアーシャムの展示会の中では色盲もそうでない人も同じ世界を共有できるわけです。</p>
+            <p style="text-align:left">そのため、私が今回作ったwebサイトも白と黒しか使わずだれが見ても同じサイトに見えるようにしました。<br>
+            最低限の情報にダニエルアーシャムが作った作品を前面に押し出しスクロールもスワイプもないタップするだけでリンクへ飛ぶそんなサイトを考えました。</p>
+            <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-1024x571.png" alt="" class="wp-image-175" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-1024x571.png 1024w, http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-300x167.png 300w, http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-768x429.png 768w"
+              sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+            <p style="text-align:left">またコラボ企画として、多くの人に認知してもらうためこの展示会に来た人にLITALICOを紹介する冊子をフリーペーパーとして配置します。</p>
+            <p style="text-align:left">展示会に来た人がフリーペーパーを手にLITALICOにいき、まだ知らない人を呼び寄せるというフローを描くことができると考えました。</p>
+            <p style="text-align:left">今回私が作ったWEBサイトのリンクです。</p>
+            <p style="text-align:left"><a href="https://usagino.github.io/Architecture_Anomalies.github.io/" target="_blank" rel="noreferrer noopener">ArchitectureAnomalies</a></p>
+            <p style="text-align:left">また、<strong>NANZUKA</strong>や<strong>LITALICO</strong>までの道のりもgoogleMAPで載せておきます</p>
+            <p style="text-align:left">ここまで読んでいただきありがとうございました</p>
+          </template>
+      </magazine>
+      <!-- <div class="news_body_sentence_textbox">
+        <p style="text-align:left">
+          アメリカの作家ダニエルアーシャムが日本で2回目となる展示会を開きました。これは展示会のwebサイトを制作する+αで何かしらの企画を提案するという課題でした。ダニエルアーシャムは1980年にアメリカのグリーンブランドで生まれ、以降様々な作品を世に排出してきました。彼は生まれながらの色覚異常者(色盲)であり白を基調とした色覚芸術が多々あります。<br>
+        </p>
+        <p style="text-align:left">
+          今回の彼の展示会のテーマは「科学的常識、原則からは説明できない逸脱、偏差を起こした現象を含む構造」<br>
+          実際に展示会に足を運んでみましたが、とても美しくてどこまでも白く、どこか残酷だと私は感じました。
+        </p>
+          <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/view4.jpg" alt="" class="wp-image-170" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/view4.jpg 600w, http://front-artgraph.com/wp-content/uploads/2018/07/view4-300x193.jpg 300w"
+            sizes="(max-width: 600px) 100vw, 600px"></figure>
+          <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-1024x768.jpg" alt="" class="wp-image-167" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-1024x768.jpg 1024w, http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-300x225.jpg 300w, http://front-artgraph.com/wp-content/uploads/2018/07/bg_image4-768x576.jpg 768w"
+            sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+          <p style="text-align:left">
+            場所はNANZUKAという渋谷に位置する展示場所で開かれていました。地下へと降りる暗い階段を進むと一気に白い世界が広がっており、別世界に来たかのような感覚に陥り、川端康成の小説「雪国」のように夜の底が白くなったようでした。
+          </p>
+          <h2>ターゲットとコラボ企画</h2>
+          <p style="text-align:left">
+            障害というのは「見える障害」と「見えない障害」があると私はインターン先のLITALICOで学んで来ました。LITALICOというのはいわゆる自立支援企業。「障害のない社会を作る」をビジョンに掲げたとても素晴らしい企業です。
+          </p>
+          <p style="text-align:left">
+            障害を持つ子供や、発達が遅れた子供に限らず自立を促す部門の「<strong>LITALICOジュニア</strong>」
+          </p>
+          <p style="text-align:left">
+            子供にプログラミングやLEGOでロボットを作ったり、デジタルアートや３Dプリンターなどのテクノロジーを通じて道徳などを教える「<strong>LITALICOワンダー</strong>」
+          </p>
+          <p style="text-align:left">
+            何かしらの問題で働けない方に就職の手助けやその人の抱える問題を共に解決する「<strong>LITALICOワークス</strong>」などがあります。
+          </p>
+          <p style="text-align:left">メガネをかけた人はメガネがなかったら目が見えない訳で、つまり障がい者と言われる世界があったかもしれません。そこにメガネという矯正ツールがあることによって視力が悪い人は普通の暮らしをできるわけです。ゆえに障害とは個人にではなくこの社会にあるというのがLITALICOの考えで、私自身ADHDを持っているのですごく共感できる考えです。</p>
+          <p style="text-align:left">今回のターゲットはダニエルアーシャムと同じく色盲を患っている方です。白を基調にした彼の作品はどこか残酷で儚げではありますが、影の黒と素材の白といういわゆる二進数で構成されているため誰が見ても同じ姿が目に映ります。つまり少なくともダニエルアーシャムの展示会の中では色盲もそうでない人も同じ世界を共有できるわけです。</p>
+          <p style="text-align:left">そのため、私が今回作ったwebサイトも白と黒しか使わずだれが見ても同じサイトに見えるようにしました。<br>
+          最低限の情報にダニエルアーシャムが作った作品を前面に押し出しスクロールもスワイプもないタップするだけでリンクへ飛ぶそんなサイトを考えました。</p>
+          <figure class="wp-block-image"><img src="http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-1024x571.png" alt="" class="wp-image-175" srcset="http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-1024x571.png 1024w, http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-300x167.png 300w, http://front-artgraph.com/wp-content/uploads/2018/07/6ec2a6b218f94633d323e0ded794d071-768x429.png 768w"
+            sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+          <p style="text-align:left">またコラボ企画として、多くの人に認知してもらうためこの展示会に来た人にLITALICOを紹介する冊子をフリーペーパーとして配置します。</p>
+          <p style="text-align:left">展示会に来た人がフリーペーパーを手にLITALICOにいき、まだ知らない人を呼び寄せるというフローを描くことができると考えました。</p>
+          <p style="text-align:left">今回私が作ったWEBサイトのリンクです。</p>
+          <p style="text-align:left"><a href="https://usagino.github.io/Architecture_Anomalies.github.io/" target="_blank" rel="noreferrer noopener">ArchitectureAnomalies</a></p>
+          <p style="text-align:left">また、<strong>NANZUKA</strong>や<strong>LITALICO</strong>までの道のりもgoogleMAPで載せておきます</p>
+
+          <p style="text-align:left">ここまで読んでいただきありがとうございました</p>
+        </div> -->
+    </main>
+  </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
